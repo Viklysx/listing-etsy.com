@@ -4,7 +4,7 @@ import etsy from './data/etsy.json';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Listing items={etsy} />
     </div>
   );

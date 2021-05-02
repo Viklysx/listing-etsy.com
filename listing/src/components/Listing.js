@@ -19,15 +19,15 @@ export default function Listing({items}) {
             
         }                 
     })
-    console.log(elems);
+    // console.log(elems);
     return (
-        <>
+        <div className="item-list">
             {
             elems.map((elem) => {
                 return <Item key={elem.listing_id} item={elem}/>        
             })
             }
-        </>       
+        </div>      
     )
 }
 
